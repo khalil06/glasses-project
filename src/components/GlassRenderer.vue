@@ -12,8 +12,6 @@
 import Item from "./Item.vue";
 import { inject } from "@vue/runtime-core";
 const props = defineProps(["glasses"]);
-// const posts: Ref<Post[]> = inject("posts") as Ref<Post[]>;
-const error = inject("error");
 </script>
 
 <style>
